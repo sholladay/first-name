@@ -1,0 +1,35 @@
+{
+  "name": "first-name",
+  "version": "0.0.0",
+  "description": "Get the first name of the user.",
+  "homepage": "https://github.com/sholladay/first-name",
+  "main": "index.js",
+  "author": {
+    "name": "Seth Holladay",
+    "url": "http://seth-holladay.com",
+    "email": "me@seth-holladay.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sholladay/first-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sholladay/first-name/issues",
+    "email": "me@seth-holladay.com"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "user",
+    "first",
+    "name"
+  ],
+  "dependencies": {
+    "fullname": "3.0.0"
+  }
+}
