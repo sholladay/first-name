@@ -1,6 +1,6 @@
 {
   "name": "first-name",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get the first name of the user.",
   "homepage": "https://github.com/sholladay/first-name",
   "main": "index.js",
