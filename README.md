@@ -1,4 +1,4 @@
-# first-name
+# first-name [![Build status for first-name on Circle CI.](https://img.shields.io/circleci/project/sholladay/first-name/master.svg "Circle Build Status")](https://circleci.com/gh/sholladay/first-name "First Name Builds")
 
 > Get the first name of the user.
 
@@ -10,18 +10,20 @@
 
 ## Install
 
-````sh
+```sh
 npm install first-name --save
-````
+```
 
 ## Usage
 
 Get it into your program.
+
 ```js
 const firstName = require('first-name');
 ```
 
 Get the user's first name.
+
 ```js
 firstName().then((name) => {
     console.log('First name:', name);

@@ -2,10 +2,8 @@
 
 const fullname = require('fullname');
 
-module.exports = () => {
-
+const firstName = () => {
     return fullname().then((name) => {
-
         const spaceIndex = name.indexOf(' ');
 
         if (spaceIndex > 0) {
@@ -15,3 +13,5 @@ module.exports = () => {
         return name;
     });
 };
+
+module.exports = firstName;
