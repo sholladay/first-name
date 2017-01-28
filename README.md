@@ -30,6 +30,12 @@ firstName().then((name) => {
 });
 ```
 
+## API
+
+### firstName()
+
+Returns a `Promise` for the user's first name.
+
 ## Contributing
 
 See our [contributing guidelines](https://github.com/sholladay/first-name/blob/master/CONTRIBUTING.md "The guidelines for participating in this project.") for more details.

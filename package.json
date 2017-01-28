@@ -10,7 +10,7 @@
     "email": "me@seth-holladay.com"
   },
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
@@ -28,11 +28,12 @@
     "index.js"
   ],
   "dependencies": {
-    "fullname": "3.0.0"
+    "fullname": "^3.0.0"
   },
   "devDependencies": {
-    "eslint-config-tidy": "0.3.0",
-    "xo": "0.16.0"
+    "ava": "^0.17.0",
+    "eslint-config-tidy": "^0.4.1",
+    "xo": "^0.17.1"
   },
   "keywords": [
     "user",
