@@ -38,7 +38,10 @@
   "keywords": [
     "user",
     "first",
-    "name"
+    "fore",
+    "given",
+    "name",
+    "forename"
   ],
   "xo": {
     "extend": "tidy"
