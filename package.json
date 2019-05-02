@@ -28,7 +28,7 @@
     "index.js"
   ],
   "dependencies": {
-    "fullname": "^3.0.0"
+    "fullname": "^4.0.0"
   },
   "devDependencies": {
     "ava": "^0.17.0",
